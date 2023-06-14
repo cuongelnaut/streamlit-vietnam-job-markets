@@ -10,7 +10,7 @@ title_job = st.text_input("Công ty:", placeholder = 'Company name')
 
 
 
-lst_city = pd.read_csv('../data/provinces.csv').Provinces
+lst_city = pd.read_csv('./data/provinces.csv').Provinces
 
 city = st.multiselect("Vị trí: ", lst_city)
 
